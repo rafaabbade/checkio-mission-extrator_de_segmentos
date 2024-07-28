@@ -2,60 +2,77 @@
  <div class="question-answer">
   <div class="question">
    <p>
-    {{DUVIDA 1}}
+    Como extrair uma sublista de uma lista maior?
    </p>
   </div>
   <div class="answer">
    <p>
-    {{DICA 1}}
+    Você pode usar uma técnica chamada slicing em Python para extrair uma parte específica de uma lista. O slicing é feito utilizando a notação [inicio:fim], onde inicio é o índice do primeiro elemento que você quer incluir e fim é o índice do primeiro elemento que você quer excluir:
+
+<pre class="brush: python">
+lista = [10, 20, 30, 40, 50]
+sublista = lista[1:4]
+print(sublista)  # Saída: [20, 30, 40]
+</pre>
+Isso permite que você extraia sublistas facilmente sem precisar iterar manualmente pela lista.
    </p>
   </div>
  </div>
  <div class="question-answer">
   <div class="question">
    <p>
-    {{DUVIDA 2}}
+    Como incluir o primeiro ou o último elemento em um slicing?
    </p>
   </div>
   <div class="answer">
    <p>
-    {{DICA 2}}
+    Para incluir o primeiro elemento, você pode começar o slicing do índice 0. Para incluir o último elemento, você pode usar índices que ultrapassam o tamanho da lista ou deixar o espaço para o índice vazio:
+
+<pre class="brush: python">
+lista = [10, 20, 30, 40, 50]
+sublista_inicial = lista[0:3]  # Inclui o primeiro elemento
+print(sublista_inicial)  # Saída: [10, 20, 30]
+
+sublista_final = lista[2:]  # Inclui o último elemento
+print(sublista_final)  # Saída: [30, 40, 50]
+</pre>
+Isso permite flexibilidade ao criar sublistas que incluem elementos específicos da lista original.
    </p>
   </div>
  </div>
  <div class="question-answer">
   <div class="question">
    <p>
-    {{DUVIDA 3}}
+    5
    </p>
   </div>
   <div class="answer">
    <p>
-    {{DICA 3}}
+    6
    </p>
   </div>
  </div>
  <div class="question-answer">
   <div class="question">
    <p>
-    {{DUVIDA 4}}
+    7
    </p>
   </div>
   <div class="answer">
    <p>
-    {{DICA 4}}
+    8
    </p>
   </div>
  </div>
  <div class="question-answer">
   <div class="question">
    <p>
-    {{DUVIDA 5}}
+    9
    </p>
   </div>
   <div class="answer">
    <p>
-    {{DICA 5}}
+    10
    </p>
   </div>
  </div>

@@ -1,1 +1,14 @@
-{{CODIGO INICIAL}}
+def extrator_de_segmentos(lista, inicio, fim):
+    # Seu código aqui
+    return None
+
+print("Example:")
+print(extrator_de_segmentos([10, 20, 30, 40, 50], 1, 4))
+
+# As funções assert são utilizadas para verificar se o resultado da função chamada é o esperado
+assert extrator_de_segmentos([10, 20, 30, 40, 50], 1, 4) == [20, 30, 40]
+assert extrator_de_segmentos([1, 2, 3, 4, 5], 0, 3) == [1, 2, 3]
+assert extrator_de_segmentos([100, 200, 300], 1, 2) == [200]
+assert extrator_de_segmentos([7, 8, 9, 10, 11], 2, 5) == [9, 10, 11]
+
+print("Seu código passou pelos testes, clique em Check para avançar!")

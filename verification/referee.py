@@ -38,7 +38,7 @@ api.add_listener(
     CheckiOReferee(
         tests=TESTS,
         function_name={
-            "python": "{{FUNC}}",
+            "python": "extrator_de_segmentos",
             "js": "countConsecutiveSummers"
         },
         cover_code={
